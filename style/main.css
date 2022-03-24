@@ -2,6 +2,68 @@
     padding: 0;
     margin: 0;
 }
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+.store {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+.store__title {
+    font-size: 50px;
+    margin: 30px;
+    vertical-align: baseline;
+    justify-self: center;
+}
+.store__row {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.store__row__card {
+    width: 430px;
+    height: 500px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.store__row__card__price {
+    justify-self: flex-start;
+    align-self: flex-start;
+    background: black;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.store__row__card__name {
+    width: 400px;
+    justify-self: flex-end;
+    font-size: 30px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.store__row__card__item:hover {
+    opacity: 0.8;
+}
+
+
 
 .navbar {
     position: sticky;!important;
